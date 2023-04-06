@@ -23,12 +23,10 @@ function App() {
 
     <div className="App">
 
-      
-      {/* <h1>amazon clone</h1> */}
-  
+   
       
       <BrowserRouter>
-      {/* <ReactNotifications/> */}
+
       <SubHeader/>
       <Navbar />
       
