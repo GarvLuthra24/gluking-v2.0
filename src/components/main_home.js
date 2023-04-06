@@ -1,7 +1,7 @@
 import React from 'react'
 import './main_home.css'
 import Gluking from './images/gluking.jpg'
-
+import { Outlet, Link } from "react-router-dom";
 
 const main_home = () => {
   return (
@@ -11,9 +11,13 @@ const main_home = () => {
         <div className=' text-3xl my-16 mx-5 max-w-5xl'>Become the Family of the fastest growing silicone sealant in the market</div>
         <div className=' mx-5'>
           
+
+          <Link to='/products'>
           <button type="button" class="text-white text-3xl bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg  px-5 py-2.5 text-center w-4/5  max-w-md min-h-max">
             Explore Products
             </button>
+          </Link>
+          
             </div>
       </div>
 

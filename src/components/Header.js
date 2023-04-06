@@ -20,14 +20,19 @@ const Header = () => {
 
 
     <div className='headerNav flex flex-row flex-nowrap ml-2 my-1 items-center  justify-around px-3'>
-    <div className='header_option'>
-        <Link to="/home"  className='hyperLink userName mr-5 text-center'>
-        
-          Home
-        
-        </Link>
-        </div>
+
       
+    <Link to="/home" className='hyperLink userName mr-3 text-center'>
+        <div className='header_option mr-3'>
+              Home
+          </div>
+
+      </Link>
+
+
+
+
+
       <Link to="/products" className='hyperLink userName mr-3 text-center'>
         <div className='header_option mr-3'>
               Products

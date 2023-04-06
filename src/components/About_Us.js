@@ -13,9 +13,12 @@ const About_Us = () => {
                     
                 <li className=' mb-3 text-sm'>
                 In a society that runs on performance and strives for sustainability, silicones are essential materials.
+                
+                </li>
+                
+                <li className=' mb-3 text-sm p'>
                 Silicones take numerous forms and can be engineered to deliver an almost unlimited range of enabling and problem-solving benefits.
                 </li>
-
                
 
                 <li className=' mb-3 text-sm p'>
@@ -35,7 +38,7 @@ const About_Us = () => {
 
         </div>
         <blockquote class=" text-base italic font-semibold text-white  px-16 py-12 bg-black">
-    <p>"Since 2017,We are actively investing and innovating to make sure our silicone materials continue to bring their unique performance and sustainability benefits to society."</p>
+    <p className='text-center'>"Since 2017,We are actively investing and innovating to make sure our silicone materials continue to bring their unique performance and sustainability benefits to society."</p>
     <div className=' w-full flex flex-row  justify-end mt-3' >-Team Gluking</div>
 
     
