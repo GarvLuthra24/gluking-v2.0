@@ -41,7 +41,7 @@ const About_Us = () => {
     
 </blockquote>
 
-<div className=' text-6xl flex flex-row justify-center px-5 py-4 my-5'> Our Core Values</div>
+<div className=' text-6xl flex flex-row justify-center px-5 py-4 my-16'> Our Core Values</div>
 
     <div className='  flex flex-row flex-wrap justify-center'>
     <div class="max-w-sm rounded overflow-hidden shadow-lg mx-2">
@@ -113,7 +113,7 @@ const About_Us = () => {
     </div>
 
 
-    <div  class=" my-12 mx-auto flex flex-col items-center bg-green-900  border border-gray-200 rounded-lg shadow md:flex-row md:max-w-6xl  dark:border-gray-700  ">
+    <div  class="  mt-20 mx-auto flex flex-col items-center bg-green-900  border border-gray-200 rounded-lg shadow md:flex-row md:max-w-6xl  dark:border-gray-700  ">
     {/* <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/docs/images/blog/image-4.jpg" alt=""> */}
     <img src={Tree} className=' w-40 rounded-lg'></img>
     <div class="flex flex-col justify-between p-4 leading-normal">
