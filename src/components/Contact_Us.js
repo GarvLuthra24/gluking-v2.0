@@ -22,7 +22,8 @@ const Contact_Us = () => {
 
             <div className=' min-w-fit'>
               <ul>
-                <li>Shop no.29, D-Block, DDA-Market,</li>
+                <li>Shop no.29,</li>
+                <li> D-Block, DDA-Market,</li>
                 <li> Prashant Vihar, Delhi-110085</li>
               </ul>
            
