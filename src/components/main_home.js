@@ -2,10 +2,14 @@ import React from 'react'
 import './main_home.css'
 import Gluking from './images/gluking.jpg'
 import { Outlet, Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 const main_home = () => {
   return (
     <div>
+      <Helmet>
+        <title>Gluking | Home</title>
+      </Helmet>
       <div className='voster main-web h-max  bg-gradient-to-tl py-20 from-[#269784] to-[#0c3777] text-white'>
         <div className='  text-6xl w-5/6 max-w-4xl  block py-5 mx-5'> Our Glue is Your Answer.</div>
         <div className=' text-3xl my-16 mx-5 max-w-5xl'>Be the part of our Family, The fastest growing silicone sealant in the market.</div>

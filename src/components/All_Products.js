@@ -7,10 +7,15 @@ import Glassobossv2 from './images/Glassoboss v2.0.png'
 import Glassobossv1 from './images/Glassoboss v1.png'
 import GlukingweatherPlus from './images/Gluking Weather Plus.png'
 import GlukingSausage from './images/Gluking Sausage.jpeg'
+import { Helmet } from 'react-helmet';
 
 const All_Products = () => {
   return (
     <div>
+
+    <Helmet>
+        <title>Gluking | Products</title>
+      </Helmet>
 
         <div className=' reactHead px-5 py-16 mb-20 bg-gradient-to-r  from-slate-900 to-slate-700 text-white'>
             <div className=' text-6xl mb-5 '> Our Products</div>

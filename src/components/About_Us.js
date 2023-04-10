@@ -1,9 +1,14 @@
 import React from 'react'
 import Tree from './images/tree.png'
+import { Helmet } from 'react-helmet';
 
 const About_Us = () => {
   return (
     <div>
+
+      <Helmet>
+        <title>Gluking | About Us</title>
+      </Helmet>
         <div className='px-5 py-16 bg-gradient-to-r from-slate-900 to-slate-700 text-white'>
             <div className=' text-4xl mb-5 '> Material forms that fuel innovation</div>
             <ul>

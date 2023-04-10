@@ -4,6 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 import { useEffect, useState } from 'react';
 
 
+
 const Header = () => {
 
 
@@ -23,7 +24,7 @@ const Header = () => {
 
       
     <Link to="/home" className='hyperLink userName mr-3 text-center'>
-        <div className='header_option mr-3'>
+        <div className='header_option mr-3' >
               Home
           </div>
 
