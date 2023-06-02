@@ -11,7 +11,7 @@ const main_home = () => {
         <title>Gluking | Home</title>
       </Helmet>
       <div className='voster main-web h-max  bg-gradient-to-tl py-20 from-[#269784] to-[#0c3777] text-white'>
-        <div className='  text-6xl w-5/6 max-w-4xl  block py-5 mx-5'> Our Glue is Your Answer.</div>
+        <div className='  text-5xl w-5/6 max-w-4xl  block py-5 mx-5'> Our Glue is Your Answer.</div>
         <div className=' text-3xl my-16 mx-5 max-w-5xl'>Be the part of our Family, The fastest growing silicone sealant in the market.</div>
         <div className=' mx-5'>
           
